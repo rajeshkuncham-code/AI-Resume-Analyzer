@@ -1,0 +1,17 @@
+Position: AI & Machine Learning Engineer
+
+Company: AI Technologies Inc.
+Location: San Francisco, CA (Hybrid)
+
+Responsibilities:
+- Build, optimize, and train Machine Learning and Deep Learning algorithms.
+- Build clean Data Science pipelines using Pandas, NumPy, and Scikit-learn.
+- Train state-of-the-art Neural Networks using PyTorch or TensorFlow.
+- Design Natural Language Processing (NLP) modules for semantic matching.
+- Containerize deployment modules with Docker and deploy on AWS cloud infrastructures.
+
+Requirements:
+- Strong programming experience in Python, Java, and SQL.
+- Solid background in Machine Learning, Deep Learning, and NLP architectures.
+- Experience with Docker, Git version control, and AWS SageMaker.
+- Master's or Bachelor's degree in Computer Science, Data Science, or related field.

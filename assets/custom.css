@@ -1,0 +1,178 @@
+/* Premium Glassmorphism Theme for AI Resume Analyzer */
+
+/* Main layout background */
+.stApp {
+    background: radial-gradient(circle at top right, #1F1135, #0E071D);
+    color: #F8FAFC;
+    font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom Header gradient */
+.header-title {
+    background: linear-gradient(135deg, #A855F7, #3B82F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.025em;
+}
+
+.header-subtitle {
+    color: #94A3B8;
+    text-align: center;
+    font-size: 1.15rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+/* Glassmorphism Card Style */
+.glass-card {
+    background: rgba(30, 20, 50, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.glass-card:hover {
+    border-color: rgba(168, 85, 247, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Custom Metric Card Style */
+.metric-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.metric-card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.metric-card .value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #3B82F6;
+    margin-top: 0.25rem;
+}
+
+.metric-card .label {
+    font-size: 0.85rem;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Skill Chip Styles */
+.chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.chip {
+    padding: 0.4rem 0.8rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+.chip-match {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #34D399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.chip-missing {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #FBBF24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+/* Improvement suggestions */
+.suggestion-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.suggestion-bullet {
+    color: #A855F7;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.suggestion-text {
+    color: #E2E8F0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Customize Streamlit sidebar */
+[data-testid="stSidebar"] {
+    background-color: #0B0515 !important;
+    border-right: 1px solid rgba(168, 85, 247, 0.1) !important;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(135deg, #8B5CF6, #3B82F6) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.6rem 1.5rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25) !important;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg, #7C3AED, #2563EB) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 16px rgba(139, 92, 246, 0.4) !important;
+}
+
+/* Style Streamlit containers with border as glassmorphism cards */
+div[data-testid="stVerticalBlockBorder"] {
+    background: rgba(30, 20, 50, 0.45) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(168, 85, 247, 0.25) !important;
+    border-radius: 16px !important;
+    padding: 2rem !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+.auth-title {
+    text-align: center;
+    background: linear-gradient(135deg, #A855F7, #3B82F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+

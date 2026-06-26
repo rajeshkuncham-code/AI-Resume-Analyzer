@@ -1,0 +1,16 @@
+Position: Frontend Web Developer (React)
+
+Company: WebCraft Systems
+Location: New York, NY
+
+Responsibilities:
+- Build responsive, interactive web interfaces using React, JavaScript, HTML, and CSS.
+- Optimize frontend components for speed and scalability.
+- Work closely with backend teams to query database API layers.
+- Maintain code repositories using Git and manage deployment configurations with Docker.
+
+Requirements:
+- Proficiency in HTML, CSS, JavaScript, and React.
+- Understanding of backend integrations, Node.js, and SQL or PostgreSQL databases.
+- Experience with Git, GitHub, Docker, and AWS deployments.
+- Strong UI/UX aesthetics and attention to mobile-responsive structures.
